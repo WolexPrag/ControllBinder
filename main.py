@@ -17,12 +17,3 @@ def InputInField(pos: int):
 
 if(confirm(text="Start?",buttons = ["Yes","No"])=="No"):
     quit()
-PosBox = locateCenterOnScreen(Paths['Box'])
-PosBox2 = locateCenterOnScreen(Paths['2Box'])
-DifferentCells = (PosBox2.x - PosBox.x, PosBox.y)
-click(PosBox)
-FieldPos: (int, int)
-Confirm: (int, int)
-DifferentCells: (int, int)
-
-print(DifferentCells)
